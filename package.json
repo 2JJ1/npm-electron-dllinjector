@@ -1,0 +1,27 @@
+{
+  "name": "electron-dllinjector",
+  "version": "1.0.0",
+  "description": "v8 (Node.js & Electron) wrapper around a Windows C++ DLL to inject DLLs into running processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2JJ1/electron-dllinjector.git"
+  },
+  "keywords": [
+    "dllinjector",
+    "dll",
+    "injector",
+    "windows",
+    "x64",
+    "x86"
+  ],
+  "author": "Jonathon Powell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2JJ1/dllinjector/issues"
+  },
+  "homepage": "https://github.com/2JJ1/dllinjector#readme"
+}
