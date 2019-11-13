@@ -1,14 +1,14 @@
 {
-  "name": "dllinjector",
-  "version": "2.1.0",
-  "description": "Wrapper around a native Node.js addon to inject DLLs into running x64 or x86 Windows processes.",
+  "name": "electron-dllinjector",
+  "version": "1.0.1",
+  "description": "v8 (Node.js & Electron) wrapper around a Windows C++ DLL to inject DLLs into running processes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2JJ1/dllinjector.git"
+    "url": "git+https://github.com/2JJ1/electron-dllinjector.git"
   },
   "keywords": [
     "dllinjector",

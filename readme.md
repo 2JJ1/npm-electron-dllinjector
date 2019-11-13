@@ -2,12 +2,18 @@
 # dllinjector
 
 **npm install dllinjector**  
+**npm install electron@7.1.0**  
 
-Built for use on Windows OS with Node.js. 
-If you want to use this for Electron, please view the "electron-dllinjector" NPM package
+A wrapper around an electron native addon. 
+Built for use on Windows OS. 
+Currently compiled for use in Electron version 7.1.0, but it may work for newer versions.
+
+For use with Electron, use npm electron-rebuild
 
     //Access to the injector class
-    const dllinjector = require('dllinjector')
+    const dllinjector = require('electron-dllinjector')
+
+Electron in production will usually put this package inside an asar file. That could cause issues, so you may want to move this entire package into a resources folder to keep it outside of the asar file.
 
 ## Class methods
 
