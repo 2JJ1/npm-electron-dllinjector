@@ -2,7 +2,7 @@
 # dllinjector
 
 **npm install dllinjector**  
-**npm install electron@4.1.1**  
+**npm install electron@7.1.0**  
 
 A wrapper around an electron native addon. 
 Built for use on Windows OS. 
@@ -11,7 +11,7 @@ Currently compiled for use in Electron version 7.1.0, but it may work for newer 
 For use with Electron, use npm electron-rebuild
 
     //Access to the injector class
-    const dllinjector = require('dllinjector')
+    const dllinjector = require('electron-dllinjector')
 
 ## Class methods
 
