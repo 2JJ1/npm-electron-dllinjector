@@ -1,6 +1,6 @@
 {
   "name": "electron-dllinjector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "v8 (Node.js & Electron) wrapper around a Windows C++ DLL to inject DLLs into running processes",
   "main": "index.js",
   "scripts": {

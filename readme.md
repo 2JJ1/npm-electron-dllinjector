@@ -13,6 +13,8 @@ For use with Electron, use npm electron-rebuild
     //Access to the injector class
     const dllinjector = require('electron-dllinjector')
 
+Electron in production will usually put this package inside an asar file. That could cause issues, so you may want to move this entire package into a resources folder to keep it outside of the asar file.
+
 ## Class methods
 
     InjectDLL(<string> DLLFilePath, <int>ProcessID)
